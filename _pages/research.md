@@ -27,8 +27,6 @@ author_profile: true
     }
 </style>
 
-<h2>Helloworld</h2>
-
 <ol>
 {% for post in site.research reversed %}
     <li class="list_item">
