@@ -106,6 +106,18 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _research
+  - scope:
+      path: ""
+      type: research
+    values:
+      layout: single
+      author_profile: true
+
+collections:
+  research:
+    output: true
+    permalink: /:collection/:path/
 
 category_archive:
   type: liquid
