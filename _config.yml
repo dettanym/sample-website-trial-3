@@ -59,33 +59,24 @@ plugins:
 
 author:
   name   : "Miti Mazmudar"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/own-bio-photo.jpg"
   bio    : "I research PETs (privacy-enhancing technologies)!"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://twitter.com/mitimazmudar"
+    - label: "Gitlab"
+      icon: "fab fa-fw fa-gitlab"
+      url: "https://git-crysp.uwaterloo.ca/miti"
 
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://twitter.com/mitimazmudar"
+    - label: "Gitlab"
+      icon: "fab fa-fw fa-gitlab"
+      url: "https://git-crysp.uwaterloo.ca/miti"
 
 defaults:
   # _posts
