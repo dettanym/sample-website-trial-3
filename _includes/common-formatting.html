@@ -1,0 +1,35 @@
+<li class="list_item">
+    <p>{{post.title}}</p>
+    <p>{{post.author}}</p>
+    <p class="venue-year">{{post.venue}} ({{post.year}})</p>
+    {% if post.paperurl %}
+    <a href="{{post.paperurl}}" class="downloadable-items">
+        <i class="fas fa-file mr-1" aria-hidden="true"></i>
+        <span style="text-decoration: underline">Paper</span>
+    </a>
+    {% endif %}
+    {% if post.extendedurl %}
+    <a href="{{post.extendedurl}}" class="downloadable-items">
+        <i class="fas fa-file mr-1" aria-hidden="true"></i>
+        <span style="text-decoration: underline">Extended paper</span>
+    </a>
+    {% endif %}
+    {% if post.codeurl %}
+    <a href="{{post.codeurl}}" class="downloadable-items">
+        <i class="fab fa-fw fa-github mr-1" aria-hidden="true"></i>
+        <span style="text-decoration: underline">Artifact</span>
+    </a>
+    {% endif %}
+    {% if post.slidesurl %}
+    <a href="{{post.slidesurl}}" class="downloadable-items">
+        <i class="fas fa-desktop mr-1" aria-hidden="true"></i>
+        <span style="text-decoration: underline">Slides</span>
+    </a>
+    {% endif %}
+    {% if post.videourl %}
+    <a href="{{post.videourl}}" class="downloadable-items">
+        <i class="fas fa-video mr-1" aria-hidden="true"></i>
+        <span style="text-decoration: underline">Video</span>
+    </a>
+    {% endif %}
+</li>
