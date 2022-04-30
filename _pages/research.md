@@ -5,28 +5,6 @@ permalink: /research/
 author_profile: true
 ---
 
-<style>
-    .mr-1 {
-        margin-right: 8px;
-    }
-    .list_item {
-        margin-bottom: 16px;
-    }
-    .list_item a.downloadable-items {
-        #display: flex;
-        align-items: baseline;
-    }
-    .list_item p {
-        margin: 0;
-    }
-    .list_item .venue-year {
-        font-style: italic;
-    }
-    span.own-name {
-        text-decoration: underline;
-    }
-</style>
-
 <ol>
 {% for post in site.research reversed %}
     <li class="list_item">
